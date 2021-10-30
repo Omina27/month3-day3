@@ -1,0 +1,25 @@
+.card-icon {
+    margin: 0;
+    align-items: center;
+    margin-bottom: 6px;
+    &::before {
+        content: "";
+        display: block;
+        width: 15px;
+        height: 15px;background-image: url(../../images/date.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-right: 7px;
+
+    }
+
+    &--2::before{
+        content: "";
+        display: block;
+        width: 15px;
+        height: 15px;background-image: url(../../images/star.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-right: 7px;
+    }
+}
